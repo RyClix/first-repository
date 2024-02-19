@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
-    background-color: #183f55;
+    background-color: #143644;
     font-family: "Roboto Mono", monospace;
     font-weight: 700;
     color: #f2f2f2;
@@ -19,34 +19,30 @@
     height: 150px;
 }
 
-.commands{
+.commands {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+.commands ul,li,h3 {
+    background-color: #000;
+    width: 10rem;
+    margin-top: -0.8rem;
+}
+
+.commands h2 {
+    margin-bottom: 2rem;
+}
+
+.commands ul li {
+    list-style-type: square;
+}
+
 .commands-1 ul {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-left: 9rem;
+    margin-left: 11rem;
 }
 
 .commands-2 ul {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-left: 5rem;
-}
-
-.commands ul  {
-    background-color: #000;
-    list-style-type: square;
-    width: 14rem;
-}
-.commands li  {
-    background-color: #000;
-}
-.commands h3  {
-    background-color: #000;
+    margin-left: 7rem;
 }
